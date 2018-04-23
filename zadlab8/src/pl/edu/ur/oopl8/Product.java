@@ -33,3 +33,4 @@ public abstract class Product {
 
     public abstract void showInfo();
 }
+//Produkty typu ubranie, lekarstwa, narzędzia nie powinny być opisane jako abstrakcyjne
