@@ -17,16 +17,16 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         Product[] tablica = new Product[10];
-       tablica [0] = new Ksiażka(1,"Abc","111");
-       tablica [1] = new Czekolada (1,"Abc","111");
-       tablica [2] = new Ksiażka(1,"Abc","111");
-       tablica [3] = new Długopis(1,"Abc","111");
-       tablica [4] = new Dżem(1,"Abc","111");
-       tablica [5] = new Polopiryna(1,"Abc","111");
-       tablica [6] = new Dżem(1,"Abc","111");
-       tablica [8] = new Czekolada(1,"Abc","111");
-       tablica [8] = new Długopis(1,"Abc","111");
-       tablica [9] = new Ksiażka(1,"Abc","111");
+       tablica [0] = new Ksiażka(1,"Abc","123");
+       tablica [1] = new Czekolada (1,"Abc","123");
+       tablica [2] = new Ksiażka(1,"Abc","123");
+       tablica [3] = new Długopis(1,"Abc","123");
+       tablica [4] = new Dżem(1,"Abc","123");
+       tablica [5] = new Polopiryna(1,"Abc","123");
+       tablica [6] = new Dżem(1,"Abc","123");
+       tablica [8] = new Czekolada(1,"Abc","123");
+       tablica [8] = new Długopis(1,"Abc","123");
+       tablica [9] = new Ksiażka(1,"Abc","123");
        for ( int i=0;i<10;i++){
         tablica[i].buy();
         tablica[i].showInfo();
