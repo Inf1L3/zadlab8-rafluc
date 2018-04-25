@@ -15,6 +15,7 @@ public class Długopis extends Product {
                 "I bought a black tractor, capaciticy 2400!");
     }
 
+    
     public void showInfo() {
         System.out.println(
                 "Price:" + getPrice()
