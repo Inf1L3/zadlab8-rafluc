@@ -11,4 +11,5 @@ package pl.edu.ur.oopl8;
  */
 public class FiguraGeometryczna {
     
+    
 }
