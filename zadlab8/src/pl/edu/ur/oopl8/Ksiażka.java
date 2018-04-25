@@ -14,6 +14,7 @@ public class Ksiażka extends Product {
         super(price, name, describe);
     }
 
+    
     public void buy() {
         System.out.println(
                 "I bought a black tractor, capaciticy 2400!");
