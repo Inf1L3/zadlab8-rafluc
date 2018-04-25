@@ -15,7 +15,8 @@ public class Polopiryna extends Product {
                 "I bought a black tractor, capaciticy 2400!");
     }
 
-    public void showInfo() {
+   
+   public void showInfo() {
         System.out.println(
                 "Price:" + getPrice()
                 + " name:" + getName()
